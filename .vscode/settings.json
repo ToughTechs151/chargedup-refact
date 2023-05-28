@@ -52,7 +52,7 @@
   "githubIssues.issueBranchTitle": "issue${issueNumber}/${sanitizedIssueTitle}",
   "sonarlint.connectedMode.project": {
     "connectionId": "toughtechs151",
-    "projectKey": "ToughTechs151_robot-template"
+    "projectKey": "ToughTechs151_chargedup-refact"
   },
   "java.checkstyle.version": "10.8.0",
   "githubPullRequests.createOnPublishBranch": "never",
