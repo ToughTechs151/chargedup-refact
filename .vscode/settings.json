@@ -54,7 +54,7 @@
     "connectionId": "toughtechs151",
     "projectKey": "ToughTechs151_chargedup-refact"
   },
-  "java.checkstyle.version": "10.8.0",
+  "java.checkstyle.version": "10.12.0",
   "githubPullRequests.createOnPublishBranch": "never",
   "githubPullRequests.notifications": "pullRequests",
   "taskExplorer.enableExplorerView": false,
