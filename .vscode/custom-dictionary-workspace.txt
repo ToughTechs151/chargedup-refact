@@ -1,7 +1,9 @@
+ADXRS
 assertj
 Autofetch
 Blinkin
 bracketpair
+Brushless
 buildtime
 Checkstyle
 datalog

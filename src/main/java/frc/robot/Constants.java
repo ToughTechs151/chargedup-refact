@@ -18,6 +18,19 @@ public final class Constants {
     throw new IllegalStateException("Utility class");
   }
 
+  /** Constants used by the robot Drive. */
+  public static final class DriveConstants {
+
+    private DriveConstants() {
+      throw new IllegalStateException("DriveConstants Utility class");
+    }
+
+    public static final int FRONT_LEFT_MOTOR_PORT = 4;
+    public static final int REAR_LEFT_MOTOR_PORT = 1;
+    public static final int FRONT_RIGHT_MOTOR_PORT = 2;
+    public static final int REAR_RIGHT_MOTOR_PORT = 3;
+  }
+
   // Joystick Axes
   public static final int LEFT_X = 0;
   public static final int LEFT_Y = 1;
