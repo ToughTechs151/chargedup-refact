@@ -7,7 +7,7 @@ import edu.wpi.first.wpilibj.interfaces.Gyro;
 import edu.wpi.first.wpilibj.motorcontrol.MotorControllerGroup;
 
 /** DriveSubsystem. */
-@java.lang.SuppressWarnings({"java:S1068", "unused"}) // Remove when finished implementing.
+@java.lang.SuppressWarnings({"java:S1068","unused"}) // Remove when finished implementing.
 public class DriveSubsystem {
 
   private final CANSparkMax frontLeft;
@@ -24,7 +24,6 @@ public class DriveSubsystem {
   private final RelativeEncoder frontRightEncoder;
   private final RelativeEncoder rearLeftEncoder;
   private final RelativeEncoder rearRightEncoder;
-
   /**
    * Drive subsystem constructor when four motor controllers are used.
    *
@@ -56,6 +55,10 @@ public class DriveSubsystem {
     rearRightEncoder = this.rearRight.getEncoder();
 
     robotDrive = new DifferentialDrive(leftMotor, rightMotor);
+  }
+
+  public DifferentialDrive getRobotDrive() {
+    return robotDrive;
   }
 
   public void tankDrive(double leftSpeed, double rightSpeed) {

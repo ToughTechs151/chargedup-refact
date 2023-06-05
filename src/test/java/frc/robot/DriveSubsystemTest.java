@@ -52,4 +52,18 @@ class DriveSubsystemTest {
     verify(mockRearRightMotor).getEncoder();
     verify(mockRearRightMotor).set(0.0);
   }
+
+  @Test
+  void testDrive_no_deadband_set() {
+    // Set the deadband to zero so we get out the values we set.
+    var diffDrive = driveChassis.getRobotDrive();
+    diffDrive.setDeadband(0);
+
+    driveChassis.tankDrive(0.5, 0.2);
+
+    verify(mockFrontLeftMotor).set(0.5);
+    verify(mockRearLeftMotor).set(0.5);
+    verify(mockFrontRightMotor).set(0.2);
+    verify(mockRearRightMotor).set(0.2);
+  }
 }
