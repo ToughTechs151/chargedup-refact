@@ -7,7 +7,7 @@ import edu.wpi.first.wpilibj.interfaces.Gyro;
 import edu.wpi.first.wpilibj.motorcontrol.MotorControllerGroup;
 
 /** DriveSubsystem. */
-@java.lang.SuppressWarnings({"java:S1068","unused"}) // Remove when finished implementing.
+@java.lang.SuppressWarnings({"java:S1068", "unused"}) // Remove when finished implementing.
 public class DriveSubsystem {
 
   private final CANSparkMax frontLeft;
