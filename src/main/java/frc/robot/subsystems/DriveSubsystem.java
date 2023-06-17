@@ -24,6 +24,7 @@ public class DriveSubsystem {
   private final RelativeEncoder frontRightEncoder;
   private final RelativeEncoder rearLeftEncoder;
   private final RelativeEncoder rearRightEncoder;
+  
   /**
    * Drive subsystem constructor when four motor controllers are used.
    *
@@ -33,7 +34,6 @@ public class DriveSubsystem {
    * @param rearRight The rear right motor controller.
    * @param gyro The gyro for directional correction.
    */
-  
   public DriveSubsystem(
       CANSparkMax frontLeft,
       CANSparkMax frontRight,
