@@ -24,7 +24,7 @@ public class DriveSubsystem {
   private final RelativeEncoder frontRightEncoder;
   private final RelativeEncoder rearLeftEncoder;
   private final RelativeEncoder rearRightEncoder;
-  
+
   /**
    * Drive subsystem constructor when four motor controllers are used.
    *
